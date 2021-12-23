@@ -1,0 +1,4360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ForbiddenLimitedActivity"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/forbiddenCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F24448"
+                    android:text="Forbidden Cards"
+                    android:textSize="22dp"
+                    android:padding="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ASTROGRAPH SORCERER"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BLACKWING - GOFU THE VAGUE SHADOW" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BLACKWING - STEAM THE CLOAK" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BLASTER, DRAGON RULER OF INFERNOS" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BLOCK DRAGON" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CYBER JAR" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DANDYLION" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DESTRUDO THE LOST DRAGON'S FRISSON" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DJINN RELEASER OF RITUALS" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ECLIPSE WYVERN" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FAIRY TAIL - SNOW" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FIBER JAR" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FISHBORG BLASTER" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GLOW-UP BULB" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GRINDER GOLEM" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="JET SYNCHRON" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LEVEL EATER" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LUNALIGHT TIGER" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAGICAL SCIENTIST" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAJESPECTER UNICORN - KIRIN" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MASTER PEACE, THE TRUE DRACOSLAYING KING" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAXX 'C'" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MECHA PHANTOM BEAST O-LION" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MIND MASTER" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ORCUST HARP HORROR" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PERFORMAGE PLUSHFIRE" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PERFORMAPAL MONKEYBOARD" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PHOENIXIAN CLUSTER AMARYLLIS" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="REDOX, DRAGON RULER OF BOULDERS" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SAMSARA LOTUS" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SPYRAL MASTER PLAN" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SUBSTITOAD" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="THE TYRANT NEPTUNE" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TIDAL, DRAGON RULER OF WATERFALLS" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="VICTORY DRAGON" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="YATA-GARASU" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#a086b7">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ELDER ENTITY NORDEN" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Fusion" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#a086b7">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SUPREME KING DRAGON STARVING VENOM" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Fusion" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#a086b7">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="THUNDER DRAGON COLOSSUS" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Fusion" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GUARDRAGON AGARPAIN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GUARDRAGON ELPY" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HEAVYMETALFOES ELECTRUMITE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="KNIGHTMARE GOBLIN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="KNIGHTMARE MERMAID" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LINKROSS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SUMMON SORCERESS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TOPOLOGIC GUMBLAR DRAGON" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="UNION CARRIER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ANCIENT FAIRY DRAGON" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Synchro" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DENGLONG, FIRST OF THE YANG ZING" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Synchro" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IB THE WORLD CHALICE JUSTICIAR" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Synchro" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TEMPEST MAGICIAN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Synchro" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LAVALVAL CHAIN"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="M-X-SABER INVOKER"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NUMBER 16: SHOCK MASTER"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NUMBER 42: GALAXY TOMAHAWK"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NUMBER 86: HEROIC CHAMPION - RHONGOMYNIAD"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout><LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#000000">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="NUMBER 95: GALAXY-EYES DARK MATTER DRAGON"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Monster/Xyz"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NUMBER S0: UTOPIC ZEXAL"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="OUTER ENTITY AZATHOT"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TELLARKNIGHT PTOLEMAEUS"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TRUE KING OF ALL CALAMITIES"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="WIND-UP CARRIER ZENMAITY"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ZOODIAC BROADBULL"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ZOODIAC DRIDENT"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BRILLIANT FUSION" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BUTTERFLY DAGGER - ELMA" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CARD OF SAFE RETURN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CHANGE OF HEART" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CHICKEN GAME" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="COLD WAVE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CONFISCATION" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DELINQUENT DUO" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DIMENSION FUSION" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GIANT TRUNADE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GRACEFUL CHARITY" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HEAVY STORM" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="KAISER COLOSSEUM" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LAST WILL" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MASS DRIVER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="METAMORPHOSIS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MIRAGE OF NIGHTMARE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PAINFUL CHOICE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="POT OF GREED" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PREMATURE BURIAL" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SMOKE GRENADE OF THE THIEF" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SNATCH STEAL" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SOUL CHARGE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SPELLBOOK OF JUDGMENT" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="THAT GRASS LOOKS GREENER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="THE FORCEFUL SENTRY" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ZOODIAC BARRAGE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell - Was Limited" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ZOODIAC" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LAST TURN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RETURN FROM THE DIFFERENT DIMENSION" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ROYAL OPPRESSION" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SELF-DESTRUCT BUTTON" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SIXTH SENSE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TIME SEAL" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TRAP DUSTSHOOT" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ULTIMATE OFFERING" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="VANITY'S EMPTINESS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/limitedCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F24448"
+                    android:text="Limited Cards"
+                    android:textSize="22dp"
+                    android:padding="5dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FDE68A">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LEFT ARM OF THE FORBIDDEN ONE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FDE68A">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LEFT LEG OF THE FORBIDDEN ONE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FDE68A">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RIGHT ARM OF THE FORBIDDEN ONE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FDE68A">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RIGHT LEG OF THE FORBIDDEN ONE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ARMAGEDDON KNIGHT" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BLACK DRAGON COLLAPSERPENT" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CYBER-STEIN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DANGER!? JACKALOPE?" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DANGER!? TSUCHINOKO?" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DARK GREPHER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DINOMIGHT KNIGHT, THE TRUE DRACOFIGHTER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DINOWRESTLER PANKRATOPS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EVA" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect - New" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EXODIA THE FORBIDDEN ONE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GENEX ALLY BIRDMAN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="INFERNITY ARCHFIEND" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MISCELLANEOUSAURUS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MORPHING JAR" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="NIGHT ASSAILANT" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PHANTOM SKYBLASTER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RED-EYES DARKNESS METAL DRAGON" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SALAMANGREAT GAZELLE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SERVANT OF ENDYMION" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SPEEDROID TERRORTOP" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SPYRAL QUIK-FIX" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TEMPEST, DRAGON RULER OF STORMS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TRUE KING LITHOSAGYM, THE DISASTER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="WHITE DRAGON WYVERBURSTER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ZOODIAC RATPIER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#a086b7">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GEM-KNIGHT MASTER DIAMOND" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Fusion" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#a086b7">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PRANK-KIDS MEOW-MEOW-MU" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link - New" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#006ead">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="STRIKER DRAGON" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Link" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#9DB5CC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CYBER ANGEL BENTEN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Ritual" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PSY-FRAMELORD OMEGA" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Synchro" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="T.G. HYPER LIBRARIAN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Synchro" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#CCCCCC">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TRISHULA, DRAGON OF THE ICE BARRIER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Synchro" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="BEATRICE, LADY OF THE ETERNAL"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DAIGUSTO EMERAL"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#000000">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SALAMANGREAT MIRAGESTALLIO"
+                        android:textColor="#ffffff"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Xyz"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="A HERO LIVES"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CALLED BY THE GRAVE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CARD DESTRUCTION"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CARD OF DEMISE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="CHAIN STRIKE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DIMENSIONAL FISSURE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DIVINE WIND OF MIST VALLEY"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DRACO FACE‐OFF"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DRAGONIC DIAGRAM"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FINAL COUNTDOWN"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FIRE FORMATION - TENKI"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell - New"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="FOOLISH BURIAL"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GATEWAY OF THE SIX"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GOLD SARCOPHAGUS"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="HARPIE'S FEATHER DUSTER"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="INFERNITY LAUNCHER"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="INSTANT FUSION"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="INTO THE VOID"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAGICAL MID-BREAKER FIELD"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MIND CONTROL"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MONSTER REBORN"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ONE DAY OF PEACE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ONE FOR ONE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RAIGEKI"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="REASONING"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="REINFORCEMENT OF THE ARMY"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SALAMANGREAT CIRCLE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SCAPEGOAT"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SEKKA'S LIGHT"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SET ROTATION"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SKY STRIKER MECHA - HORNET DRONES"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SKY STRIKER MECHA MODULES - MULTIROLE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SKY STRIKER MOBILIZE - ENGAGE!"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SLASH DRAW"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SPYRAL RESORT"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TERRAFORMING"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TRICKSTAR LIGHT STAGE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="UPSTART GOBLIN"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="IMPERIAL ORDER"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MACRO COSMOS"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="MAGICAL EXPLOSION"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="METAVERSE"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="RED REBOOT"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SKILL DRAIN"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#BC5A84">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="WALL OF REVEALING LIGHT"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Trap"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/semiLimitedCards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F24448"
+                android:text="Semi-Limited Cards"
+                android:textSize="22dp"
+                android:padding="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DANGER! NESSIE" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect - Was Limited" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DESTINY HERO - MALICIOUS" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="PERFORMAPAL SKULLCROBAT JOKER" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect - Was Limited" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#1D9E74">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="EMERGENCY TELEPORT" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Spell - Was Limited" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/unlimitedCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F24448"
+                    android:text="Unlimited Cards"
+                    android:textSize="22dp"
+                    android:padding="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="#FF8B53">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="DOUBLE IRIS MAGICIAN" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Monster/Effect - Was Semi-Limited" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

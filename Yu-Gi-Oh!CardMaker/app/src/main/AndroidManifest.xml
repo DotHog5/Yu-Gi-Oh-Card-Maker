@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yugioh.cardmaker" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.yugioh.cardmaker.main.ForbiddenLimitedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.yugioh.cardmaker.main.CardListActivity"
+            android:exported="false" /> <!-- <activity android:name=".user.DetailUser"></activity> -->
+        <activity android:name="com.yugioh.cardmaker.main.ProfileActivity" />
+        <activity android:name="com.yugioh.cardmaker.main.InputCardActivity" />
+        <activity android:name="com.yugioh.cardmaker.main.EditDeleteCardActivity" />
+        <activity android:name="com.yugioh.cardmaker.main.ActivityCard" />
+        <activity android:name="com.yugioh.cardmaker.main.HomeActivity" />
+        <activity android:name="com.yugioh.cardmaker.users.RegisterActivity" />
+        <activity android:name="com.yugioh.cardmaker.users.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

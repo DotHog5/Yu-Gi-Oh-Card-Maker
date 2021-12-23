@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    tools:context=".main.HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                android:id="@+id/customCards"
+                app:cardCornerRadius="10dp"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ring"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yu-Gi-Oh! Custom cards"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/cardInputData"
+                android:layout_marginLeft="10dp"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:layout_marginTop="-15dp"
+                        android:src="@drawable/scale"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Input Custom Cards"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                android:id="@+id/cardYgo"
+                app:cardCornerRadius="10dp"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/pyramid"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yu-Gi-Oh! cards"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/forbiddenLimited"
+                android:layout_marginLeft="10dp"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/key"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Forbidden/Limited"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/cardProfile"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/eye"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profile"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="140dp"
+                android:layout_height="150dp"
+                android:clickable="true"
+                android:id="@+id/cardExit"
+                app:cardCornerRadius="10dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/scepter"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/colorPrimary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exit"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

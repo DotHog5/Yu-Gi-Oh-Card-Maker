@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".main.ActivityCard"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/filterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="5px"
+                android:text="Card Kind" />
+
+            <Spinner
+                android:id="@+id/cardKindSpinner"
+                android:layout_width="230dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="5px"
+                android:text="Card Type" />
+
+            <Spinner
+                android:id="@+id/cardTypeSpinner"
+                android:layout_width="230dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="5px"
+                android:text="Card Attribute" />
+
+            <Spinner
+                android:id="@+id/cardAttrSpinner"
+                android:layout_width="230dp"
+                android:layout_height="25dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/filterCards"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Filter Cards"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/array_list_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:divider="@null"
+        android:dividerHeight="5.0sp"
+        android:padding="8dp"
+        />
+</LinearLayout>

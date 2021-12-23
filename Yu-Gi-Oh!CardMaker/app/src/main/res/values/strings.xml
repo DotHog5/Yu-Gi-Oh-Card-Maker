@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Yu-Gi-Oh!</string>
+    <string-array name="cardKind">
+        <item></item>
+        <item>Monster</item>
+        <item>Spell</item>
+        <item>Trap</item>
+    </string-array>
+    <string-array name="monsterType">
+        <item></item>
+        <item>Aqua</item>
+        <item>Beast</item>
+        <item>Beast-Warrior</item>
+        <item>Cyberse</item>
+        <item>Dinosaur</item>
+        <item>Divine-Beast</item>
+        <item>Dragon</item>
+        <item>Fairy</item>
+        <item>Fiend</item>
+        <item>Fish</item>
+        <item>Insect</item>
+        <item>Machine</item>
+        <item>Plant</item>
+        <item>Psychic</item>
+        <item>Pyro</item>
+        <item>Reptile</item>
+        <item>Rock</item>
+        <item>Sea Serpent</item>
+        <item>Spellcaster</item>
+        <item>Thunder</item>
+        <item>Warrior</item>
+        <item>Winged Beast</item>
+        <item>Wyrm</item>
+        <item>Zombie</item>
+    </string-array>
+    <string-array name="spellType">
+        <item></item>
+        <item>Continuous</item>
+        <item>Equip</item>
+        <item>Field</item>
+        <item>Normal</item>
+        <item>Quick-Play</item>
+        <item>Ritual</item>
+    </string-array>
+    <string-array name="trapType">
+        <item></item>
+        <item>Continuous</item>
+        <item>Counter</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="emptyType">
+        <item></item>
+    </string-array>
+    <string-array name="monsterAttr">
+        <item></item>
+        <item>DARK</item>
+        <item>DIVINE</item>
+        <item>EARTH</item>
+        <item>FIRE</item>
+        <item>LIGHT</item>
+        <item>WATER</item>
+        <item>WIND</item>
+    </string-array>
+    <string-array name="spellTrapAttr">
+        <item></item>
+    </string-array>
+    <string-array name="emptyAttr">
+        <item></item>
+    </string-array>
+</resources>
